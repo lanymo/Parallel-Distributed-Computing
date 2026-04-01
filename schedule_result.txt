@@ -1,0 +1,14 @@
+1. export OMP_SCHEDULE="static"
+Scheduling: static
+Result: 3308247525.000001
+Total Execution Time: 0.027863 seconds
+
+2. export OMP_SCHEDULE="dynamic,2"
+Scheduling: dynamic,2
+Result: 3308247525.000000
+Total Execution Time: 0.039574 seconds
+
+3. export OMP_SCHEDULE="guided"
+Scheduling: guided
+Result: 3308247525.000000
+Total Execution Time: 0.017566 seconds
